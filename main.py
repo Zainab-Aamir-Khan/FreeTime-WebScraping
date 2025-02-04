@@ -11,8 +11,8 @@ print("lets get the Book and Quote detail of a website!!!")
 main = soup.find('body')
 # print(main.prettify())
 
-heading = main.find('h2')
-print(heading.text)
+heading = main.find('h2').text
+print(heading)
 
 
 
