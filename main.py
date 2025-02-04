@@ -8,8 +8,11 @@ soup = BeautifulSoup(url, 'lxml')
 
 print("lets get the Book and Quote detail of a website!!!")
 
-main = soup.find('body').text
+main = soup.find('body')
+print(main.prettify())
 
-bookInfo =  main.find('table', class_ ='table table-hover')
+
+# bookInfo =  main.find_all('div', class_ ='col-md-10')
+# print(bookInfo)
 
 
