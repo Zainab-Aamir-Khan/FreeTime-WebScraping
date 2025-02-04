@@ -18,7 +18,5 @@ print(heading.text)
 
 
 
-# bookInfo =  main.find_all('div', class_ ='col-md-10')
-# print(bookInfo)
 
 
