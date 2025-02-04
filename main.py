@@ -14,8 +14,9 @@ main = soup.find('body')
 heading = main.find('h2')
 print(heading.text)
 
-details = main.find('div', class_= 'col-md-6')
-print(details.text)
+
+
+
 
 # bookInfo =  main.find_all('div', class_ ='col-md-10')
 # print(bookInfo)
